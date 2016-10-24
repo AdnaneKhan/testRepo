@@ -12,7 +12,7 @@ public class App
 {
     public static void main( String[] args ) throws IOException
     {
-    	String html = Jsoup.connect("example.com").get().html();
+    	String html = Jsoup.connect("http://example.com").get().html();
     	System.out.println(html);
     }
 }
